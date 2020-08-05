@@ -62,14 +62,14 @@ module.exports = {
         // This is field under which it's accessible
         fieldName: `wpgraphql`,
         // Url to query from
-        url: `https://noh.progital.dev/graphql`,
+        url: `https://thisisatestingsite.com/wp3/graphql`,
       },
     },
     {
       resolve: "gatsby-wpgraphql-inline-images",
       options: {
-        wordPressUrl: `https://noh.progital.dev/`,
-        uploadsUrl: `https://noh.progital.dev/wp-content/uploads/`,
+        wordPressUrl: `https://thisisatestingsite.com/wp3/`,
+        uploadsUrl: `https://thisisatestingsite.com/wp3/wp-content/uploads/`,
         processPostTypes: ["Page", "Post"],
         graphqlTypeName: `WPGraphQL`,
       },
